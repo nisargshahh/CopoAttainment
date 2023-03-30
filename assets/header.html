@@ -1,0 +1,235 @@
+<html lang="en" dir="ltr">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			.box
+			{
+				width:700px;
+				border:1px solid #ccc;
+				border-radius:5px;
+				margin-top:50px;
+			}
+			body {
+				/* background-image: url("../../assets/image1.png"); */
+				background-size: cover;
+				background-color: white;
+				margin: 0;
+				font-family: Verdana, Helvetica, sans-serif;
+				height: 100%;
+			}
+			table {
+				margin-left: 30px;
+				margin-right: 30px;
+			}
+			a.link-btn {
+				color: #fff;
+				background: rgb(161, 43, 43);
+				display:inline-block;
+				border: 1px solid #2e6da4;
+				font: bold 14px Verdana, sans-serif;
+				text-decoration: none;
+				border-radius: 5px;
+				padding: 6px 15px;
+			}
+			a.link-btn:hover {
+				background-color: #cc1313;
+				border-color: #1a3e5b;
+			}
+			input[type=submit] {
+				color: #fff;
+				background: rgb(161, 43, 43);
+				display:inline-block;
+				border: 1px solid #2e6da4;
+				font: bold 14px Verdana, sans-serif;
+				text-decoration: none;
+				border-radius: 5px;
+				padding: 6px 15px;
+				cursor: pointer;
+			}
+			.footer {
+				position: fixed;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: maroon;
+				color: white;
+				text-align: center;
+				margin-top: -200px;
+			}
+			input[type=reset], input[type=submit]{
+				color: #fff;
+				background: rgb(161, 43, 43);
+				display:inline-block;
+				border: 1px solid #2e6da4;
+				font: bold 14px Verdana, sans-serif;
+				text-decoration: none;
+				border-radius: 5px;
+				padding: 6px 15px;
+				cursor: pointer;
+			}
+			button{
+				color: #fff;
+				background: rgb(161, 43, 43);
+				display:inline-block;
+				border: 1px solid #2e6da4;
+				font: 14px Verdana, sans-serif;
+				text-decoration: none;
+				border-radius: 5px;
+				padding: 6px 15px;
+			}
+			.navbar {
+				overflow: hidden;
+				background-color: rgb(161 43 43);
+			}
+			.navbar a {
+				float: right;
+				font-size: 16px;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+			.dropdown {
+				float: right;
+				overflow: hidden;
+			}
+			.dropdown .dropbtn {
+				font-size: 16px;  
+				border: none;
+				outline: none;
+				color: white;
+				padding: 14px 16px;
+				background-color: inherit;
+				font-family: inherit;
+				margin: 0;
+			}
+			.navbar a:hover, .dropdown:hover .dropbtn {
+				background-color: rgb(224, 53, 53);
+			}
+			.dropdown-content {
+				display: none;
+				position: absolute;
+				background-color: #f9f9f9;
+				min-width: 160px;
+				box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+				z-index: 1;
+			}
+			.dropdown-content a {
+				float: none;
+				color: black;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+			.dropdown-content a:hover {
+				background-color: #ddd;
+			}
+			.dropdown:hover .dropdown-content {
+				display: block;
+			}
+			.center {
+				position: relative;
+				text-align: center;
+				height: 150px;
+				top: 47%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				margin: 0;
+				color: rgb(161 43 43);
+			}
+			h1 {
+				font-size: 45px;
+				margin-bottom: 20px;
+				color: rgb(161 43 43);
+			}
+			h3 {
+				font-size: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="./Dashboard.php">Home</a>
+
+			<div class="dropdown">
+				<button class="dropbtn">Settings
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="./CreateBatch.php">Create Subject</a>
+					<a href="./ViewBatch.php">View Subject</a>
+					<a href="./ChangePassword.php">Change Password</a>
+					<a href="./Logout.php">Logout</a>
+				</div>
+			</div>
+
+			<div class="dropdown">
+				<button class="dropbtn">Faculty Management 
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="./AddCOPOMapping.php">Fill CO PO Mapping</a>
+					<a href="./COPOMapping.php">View CO Mapping Data</a>
+					<a href="./ViewPOAttainment.php">View PO Attainment</a>
+					<a href="./AddLOPOMapping.php">Fill LO PO Mapping</a>
+					<a href="./LOPOMapping.php">View LO Mapping Data</a>
+					<a href="./AddSATLOPOMapping.php">Fill LO PO/PSO Mapping for SAT</a>
+					<a href="./SATLOPOMapping.php">View LO PO/PSO Mapping Data for SAT</a>
+					<a href="closure2.php">Closure of the Quality Loop For Theory</a>
+					<a href="closure.php">Closure of the Quality Loop For Practicals</a>
+				</div>
+			</div> 
+			<div class="dropdown">
+				<button class="dropbtn">SAT Attainment
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="./SATMarks.php">Fill SAT Marks</a>
+					<a href="./SATLabExit.php">Fill SAT Lab Exit Marks</a>
+					<a href="./SATSkillBasedAttainment.php">SAT Attainment(IF Skill Based Learning)</a>
+					<a href="./SATActivityBasedAttainment.php">SAT Attainment(IF Activity/Technology Based Learning)</a>
+					<a href="satend.php">Final SAT Attainment(IF Skill Based Learning)</a>
+					<a href="satend2.php">Final SAT Attainment(IF Activity/Technology Based Learning)</a>
+					<a href="satclosure.php">Closure of the Quality Loop For SAT(IF Skill Based Learning)</a>
+					<a href="satclosure2.php">Closure of the Quality Loop For SAT(IF Activity/Technology Based Learning)</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbtn">Practical Attainment
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="./PracticalMarks.php">Fill Practical Marks</a>
+					<a href="./OralMarks.php">Fill Orals Marks</a>
+					<a href="./LabExitMarks.php">Fill Lab Exit Marks</a>
+					<a href="./PracticalAttainment.php">Practical Attainment</a>
+					<a href="./OralsAttainment.php">Orals Attainment</a>
+					<a href="./LabExitAttainment.php">Lab Exit Attainment</a>
+					<a href="./PracticalWithOralsAttainment.php">Final Termwork Attainment(With Continuous Assessment, Orals and Lab exit)</a>
+					<a href="./PracticalWithoutOralsAttainment.php">Final Termwork(With Continuous Assessment and Lab exit)</a>
+				</div>
+			</div> 
+
+			<div class="dropdown">
+				<button class="dropbtn">Theory Attainment
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="./COTargetValueSelectBatch.php">Enter Target Value of CO for Subject</a>
+					<a href="./ViewCOTargetValue.php">View Target Value of CO for Subject</a>
+					<a href="./TestMarks.php">Enter Marks to Calculate CO attainment</a>
+					<a href="./TestTargetValue.php">View Target Value for Subject</a>
+					<a href="./COAttainmentIndex.php">CO Attainment Level</a>
+					<a href="./COAttainmentIndividual.php">Individual CO Attainment Level</a>
+					<a href="./IAMarks.php">Enter IA Marks</a>
+					<a href="./IAAttainment.php">View IA Attainment</a>
+					<a href="./CourseExitMarks.php">Course Exit</a>
+					<a href="./CourseExitAttainment.php">Course Exit Attainment Level</a>
+					<a href="./FinalCourseTheoryAttainment.php">Final Theory Attainment</a>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

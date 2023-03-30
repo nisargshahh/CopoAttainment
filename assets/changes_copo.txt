@@ -1,0 +1,7 @@
+not rounded value - done
+batch = subject - done
+table structure change - done
+po attainment - 
+edit co target value - done
+edit po - done
+final attainment table structure change - done
