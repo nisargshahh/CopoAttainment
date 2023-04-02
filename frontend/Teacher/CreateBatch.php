@@ -19,7 +19,7 @@
    </head>
 
   <body>
-    <?php include('../../assets/header.html'); ?>
+    <?php include('../../assets/header.html');?>
     <center>
     <form action='../../returning_apis/AddBatch.php' method= POST>
     <div class=box>
@@ -29,7 +29,12 @@
           <select name='course_id'>
             <option value=0>Select Course</option>
             <?php
+            if($dept==5){
+              $sql = "SELECT * FROM course WHERE semester=1 OR semester=2";
+            }
+            else{
               $sql = "SELECT * FROM course WHERE department=$dept";
+            }
               $result = mysqli_query( $conn, $sql );
               while( $row = mysqli_fetch_array( $result ) ) 
               {
