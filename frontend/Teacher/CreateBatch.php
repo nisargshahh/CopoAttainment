@@ -30,15 +30,16 @@
             <option value=0>Select Course</option>
             <?php
             if($dept==5){
-              $sql = "SELECT * FROM course WHERE semester=1 OR semester=2";
+              $sql = "SELECT * FROM course,department WHERE (semester=1 OR semester=2) AND course.department = department.dept_id";
             }
             else{
-              $sql = "SELECT * FROM course WHERE department=$dept";
+              $sql = "SELECT * FROM course,department WHERE course.department=$dept AND course.department = department.dept_id;";
             }
               $result = mysqli_query( $conn, $sql );
               while( $row = mysqli_fetch_array( $result ) ) 
               {
-                echo '<option value='.$row[0].'>'.$row[1].'</option>';
+                echo '<option value='.$row[0].'>'.$row[1]."-".$row[8].'</option>';
+                echo "<p>$row[0]</p>";
               }
             ?>
           </select><br><br>
