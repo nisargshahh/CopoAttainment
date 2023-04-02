@@ -32,6 +32,12 @@
                 </script>";
             die();
         }
+    } else {
+        echo "<script>
+            alert('Please Login and then try to access the page!!');
+            window.location.href='../';
+            </script>";
+        die();
     }
 
 ?>

@@ -24,8 +24,8 @@
         }
     } else {
         echo "<script>
-            alert('Please login and then try to access the page!!');
-            window.location.href='../frontend/Login.php';
+            alert('Please Login and then try to access the page!!');
+            window.location.href='../';
             </script>";
         die();
     }

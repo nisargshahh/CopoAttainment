@@ -73,8 +73,8 @@
     }
   } else {
     echo "<script>
-      alert('Please Login and then try to access!!');
-      window.location.href='../frontend/Login.php';
+      alert('Please Login and then try to access the page!!');
+      window.location.href='../';
       </script>";
     die();
   }

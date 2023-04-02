@@ -1,0 +1,77 @@
+[23-Feb-2023 14:59:57 Asia/Calcutta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 113
+[23-Feb-2023 14:59:57 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 115
+[23-Feb-2023 14:59:57 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 153
+[23-Feb-2023 14:59:57 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 190
+[23-Feb-2023 15:03:20 Asia/Calcutta] PHP Notice:  Undefined index: patterns in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 12
+[23-Feb-2023 15:03:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 70
+[23-Feb-2023 15:04:24 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 116
+[23-Feb-2023 15:04:24 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 154
+[23-Feb-2023 15:04:24 Asia/Calcutta] PHP Notice:  Undefined offset: 0 in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 191
+[23-Feb-2023 15:23:20 Asia/Calcutta] PHP Notice:  Undefined index: patterns in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 12
+[23-Feb-2023 15:23:20 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 70
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[23-Feb-2023 15:28:54 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:23:29 Asia/Calcutta] PHP Notice:  Undefined index: patterns in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 12
+[10-Mar-2023 12:23:29 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 70
+[10-Mar-2023 12:23:53 Asia/Calcutta] PHP Notice:  Undefined index: patterns in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 12
+[10-Mar-2023 12:23:53 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 70
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[10-Mar-2023 12:38:11 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 12:28:33 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:14:50 Asia/Calcutta] PHP Warning:  json_decode() expects parameter 1 to be string, array given in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 113
+[13-Mar-2023 14:14:50 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 115
+[13-Mar-2023 14:14:50 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 153
+[13-Mar-2023 14:14:50 Asia/Calcutta] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/TargetValue.php on line 190
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:46 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:26:57 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:27:14 Asia/Calcutta] PHP Notice:  Trying to access array offset on value of type int in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewCourseExitAttainment.php on line 79
+[13-Mar-2023 14:32:35 Asia/Calcutta] PHP Notice:  Undefined index: patterns in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 12
+[13-Mar-2023 14:32:35 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/ViewTestTargetValue.php on line 70
+[15-Mar-2023 16:39:22 Asia/Calcutta] PHP Notice:  Undefined index: uid in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/COPOMapping.php on line 46
+[15-Mar-2023 16:39:22 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on bool in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/COPOMapping.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/b90w4bcece10/public_html/copo.kjsieit.in/frontend/Teacher/COPOMapping.php on line 49

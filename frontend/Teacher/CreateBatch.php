@@ -6,6 +6,7 @@
   {
     header("Location:../Login.php");
   }
+  $dept = $_SESSION['dept'];
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">

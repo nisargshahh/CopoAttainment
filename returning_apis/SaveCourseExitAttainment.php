@@ -56,10 +56,10 @@
 		}
 	} else {
 		echo "<script>
-			alert('Please Login and try to access the page!!');
-			window.location.href='../frontend/Login.php';
-			</script>";
-		die();
+            alert('Please Login and then try to access the page!!');
+            window.location.href='../';
+            </script>";
+        die();
 	}
 
 ?>

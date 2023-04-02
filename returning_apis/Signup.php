@@ -12,13 +12,13 @@
         if ( $conn-> query($query) ) {
             echo "<script>
                 alert('Registration Successfull wait till account is Activated!!');
-                window.location.href='../frontend/Login.php';
+                window.location.href='../';
                 </script>";
             die();
         } else {
             echo "<script>
                 alert('Some Error occured, please try again!!');
-                window.location.href='../frontend/Login.php';
+                window.location.href='../';
                 </script>";
             die();
         }

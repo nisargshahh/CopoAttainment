@@ -55,6 +55,7 @@
                     </div>
                 </div>
                 <a href="./Signup.php">Sign Up?</a>
+                <a href="./ForgotPassword.php">Forgot Password?</a>
                 <input type="submit" class="btn" value="Login"><br>&nbsp
             </form>
         </div>

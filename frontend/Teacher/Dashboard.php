@@ -17,8 +17,8 @@
     <center>
       <img src="../../assets/somaiya100.png" class="logo" style="width:100px; height:100px;">
       <h1>Attainment of Course Outcome</h1>
-      <h3>Developed by Computer Engineering Department</h3></p><br>
-      <a href="./CreateBatch.php" class="link-btn">Create Batch</a>
+      <h3>Developed by Computer Engineering | Electronics & Telecommunications Department</h3></p><br>
+      <a href="./CreateBatch.php" class="link-btn">Create Subject</a>
     </center>
     <section>
       <div class="footer">

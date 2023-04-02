@@ -21,40 +21,36 @@
   <body>
     <?php include('../../assets/headerAdmin.html') ?>
     <center>
-    <form action= '../../returning_apis/AddDepartment.php' method= POST>
-    <div class=box>
-      <div style=border:solid 5px rgb(0, 0, 0); padding:10px; margin-left: auto;margin-right: auto;>
-        <h3>Add Department<h3>
-            <input type=text name=department placeholder="  Enter new Department Name" style="width: 25%; height:30px; border: 2px solid #D3D3D3;"/><br>
+      <form action= '../../returning_apis/AddDepartment.php' method= POST>
+        <div class=box style=border:solid 5px rgb(0, 0, 0);>
+          <div style=padding:10px; margin-left: auto;margin-right: auto;>
+            <h3>Add Department<h3><br>
+            <input type=text name=department placeholder="Department Name" style="width: 25%; height:30px; border: 2px solid #D3D3D3;padding-left: 10px;"/><br>
             <BR><input type=submit class='button'>
-
-        <!-- <BR><input type=submit class='button'>&nbsp<a href="myaccount.php" class="link-btn">Next</a> -->
-
-      </div>
-    </div>
-    </form>
-    <table>
-          <tr><br>
-            <th>ID</th>
-            <th>Name</th>
-            <th></th>
-            <!-- <th>Department</th> -->
-          <tr>
+          </div><br>
+        </div>
+      </form>
+      <table>
+        <tr><br>
+          <th>ID</th>
+          <th>Name</th>
+          <th></th>
+          <!-- <th>Department</th> -->
+        <tr>
           <?php
-                    
             while($row = $result-> fetch_row())
             {
               echo "<tr>";
               echo "<td>".$row[0]."</td>";
               echo "<td>".$row[1]."</td>";
-              echo "<td><input type='button' name='delete' value='Delete'></td>";
+              echo "<td><form method='POST' action='../../returning_apis/DeleteDepartment.php'><input type='submit' name='delete' value='Delete' /><input type='hidden' name='delete_dept' value='$row[0]' /><form></td>";
               // echo "<td>".$department."</td>";
               echo "</tr>";
             }
           ?>
-    </table><br>
+        </tr>
+      </table><br>
     </center>
-    </section>
   </body>
   <script>
     let arrow = document.querySelectorAll(".arrow");

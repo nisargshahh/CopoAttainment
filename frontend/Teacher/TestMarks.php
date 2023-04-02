@@ -62,9 +62,12 @@
     $(document).ready(function(){
       $("#test_val").change(function(){
         var test_val = document.getElementById("test_val").value;
+        // console.log(document.URL);
+        var url = document.URL;
+        url = url.replace("/frontend/Teacher/TestMarks", "/returning_apis/GetPatterns");
         if(!(test_val === "0")) {
           $.ajax({
-            url: "http://localhost/Projects/copo/returning_apis/GetPatterns.php",
+            url: url,
             method: "POST",
             data: {"test_id": test_val},
             success: function(data, status) {

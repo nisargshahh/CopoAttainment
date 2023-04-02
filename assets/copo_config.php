@@ -2,7 +2,7 @@
 
 	date_default_timezone_set("Asia/Calcutta");
 
-	$servername = "localhost";
+    $servername = "localhost";
 	$username = "root";
 	$password = "";
 	$database = "copo";

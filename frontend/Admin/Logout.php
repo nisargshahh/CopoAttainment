@@ -3,5 +3,5 @@
     $_SESSION['uname'] = "";
     $_SESSION['uid'] = "";
     session_destroy();
-    header('Location: ../Login.php');
+    header('Location: ../../');
 ?>

@@ -10,27 +10,20 @@
 		$result = $conn-> query($query);
 		while ($row = $result-> fetch_array()) {
             if (strcmp($row['teacher_email'], $uname) == 0 && strcmp($row['password'], $password)==0) {
-                if ($row['type']) {
+                if (!$row["status"]) {
+                    echo "<script>
+                        alert('Account is not activated please try contacting admin!!');
+                        window.location.href='../frontend/Login.php';
+                        </script>";
+                    die();
+                }
+                else {
                     $_SESSION["uname"]=$uname;
                     $_SESSION["uid"] = $row[0];
                     $_SESSION["dept"] = $row[3];
-                    header("Location: ../frontend/Admin/Dashboard.php");
-                } else {
-                    if (!$row["status"]) {
-                        echo "<script>
-                            alert('Account is not activated please try contacting admin!!');
-                            window.location.href='../frontend/Login.php';
-                            </script>";
-                        die();
-                    }
-                    else {
-                        $_SESSION["uname"]=$uname;
-                        $_SESSION["uid"] = $row[0];
-                        $_SESSION["dept"] = $row[3];
-                        header("Location: ../frontend/Teacher/Dashboard.php");
-                        $flag = 1;
-                        die();
-                    }
+                    header("Location: ../frontend/Teacher/Dashboard.php");
+                    $flag = 1;
+                    die();
                 }
             }
 		}
@@ -41,5 +34,11 @@
                 </script>";
             die();
         }
-	}
+	} else {
+        echo "<script>
+            alert('Please Login and then try to access the page!!');
+            window.location.href='../';
+            </script>";
+        die();
+    }
 ?>

@@ -20,17 +20,21 @@
 	<center>
       <img src="../../assets/somaiya100.png" class="logo" style="width:100px; height:100px; margin-bottom: 50px; margin-top: 30px">
       <h1 style="margin-bottom: 30px">Attainment of Course Outcome</h1>
-      <h3 style="margin-bottom: 50px">Developed by Computer Engineering Department</h3></p>
-	  <a href="#" class="link-btn">Add CO</a>
-	  <a href="#" class="link-btn">Add LO</a>
-	  <a href="#" class="link-btn">Add SO</a>
-	  <a href="#" class="link-btn">Add PO</a><br><br>
+      <h3 style="margin-bottom: 50px">Developed by Computer Engineering & Electronics and Telecommunication Department</h3></p>
+	  <a href="./AddCO.php" class="link-btn">Add CO</a>
+	  <a href="./AddLO.php" class="link-btn">Add LO</a>
+	  <a href="./AddSO.php" class="link-btn">Add SO</a>
+	  <a href="./AddPO.php" class="link-btn">Add PO</a><br><br>
       <a href="./CreateCourse.php" class="link-btn">Create Course</a>
+      <a href="./CreateMultipleCourses.php" class="link-btn">Create Multiple Courses</a>
 	  <a href="./AddPattern.php" class="link-btn">Add Pattern</a>
 	  <a href="./AddDepartment.php" class="link-btn">Add Department</a>
+	  <a href="./ConvertToAdmin.php" class="link-btn">Convert to Admin</a>
 	  <a href="./AddBt.php" class="link-btn">Add BT</a><br><br>
 	  <a href="./ActivateSubAdmin.php" class="link-btn">Activate Sub Admin</a>
 	  <a href="./ChangePracticalMarks.php" class="link-btn">Change Practical Marks</a>
+	  <a href="./ViewCourses.php" class="link-btn">View Courses</a>
+	  <a href="./ViewBatches.php" class="link-btn">View Batches</a>
     </center>
     <section>
       <div class="footer">
